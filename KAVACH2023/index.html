@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Tracking & Tracing Fake News</title>
+	<link rel="stylesheet" type="text/css" href="./styles/style.css">
+</head>
+<body>
+	<header>
+		<h1>Tracking &amp; Tracing Fake News</h1>
+	</header>
+	<main>
+		<section>
+			<h2>Input News Content</h2>
+			<form>
+				<label for="title">Title:</label>
+				<input type="text" id="title" name="title" required>
+				<label for="description">Description:</label>
+				<textarea id="description" name="description" required></textarea>
+				<label for="source">Source:</label>
+				<input type="url" id="source" name="source" required>
+				<button type="submit">Submit</button>
+			</form>
+		</section>
+		<section>
+			<h2>Search News Articles</h2>
+			<input type="search" id="search" name="search" placeholder="Enter keywords...">
+			<button type="submit">Search</button>
+		</section>
+		<section>
+			<h2>Tracked &amp; Traced News Articles</h2>
+			<table>
+				<thead>
+					<tr>
+						<th>Title</th>
+						<th>Description</th>
+						<th>Source</th>
+						<th>Date</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>Lorem ipsum dolor sit amet</td>
+						<td>Consectetur adipiscing elit. Nullam eget...</td>
+						<td>https://www.example.com</td>
+						<td>April 28, 2023</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor sit amet</td>
+						<td>Consectetur adipiscing elit. Nullam eget...</td>
+						<td>https://www.example.com</td>
+						<td>April 27, 2023</td>
+					</tr>
+					<tr>
+						<td>Lorem ipsum dolor sit amet</td>
+						<td>Consectetur adipiscing elit. Nullam eget...</td>
+						<td>https://www.example.com</td>
+						<td>April 26, 2023</td>
+					</tr>
+				</tbody>
+			</table>
+		</section>
+	</main>
+	<footer>
+		<p>&copy; 2023 Tracking &amp; Tracing Fake News</p>
+	</footer>
+</body>
+</html>
